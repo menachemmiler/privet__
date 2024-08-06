@@ -1,23 +1,61 @@
 ﻿
+using privet__;
 
 
-
-
+//1
 Person person = new Person();
 person.SetAge(4); 
 Console.WriteLine($"age= {person.GetAge}");
 
 
-public class Person
-{
 
-    public Person() { }
-    private int Age = 0;
-    public void SetAge(int Age)
-    {
-        this.Age = Age;
-    }
-    public int GetAge { get { return this.Age; } }
-}
+
+
+//2
+Dog dog = new Dog("Rotvalier");
+Console.WriteLine(dog.GetSpecies);
+
+
+//3
+MathOperations mathOperations = new MathOperations();
+Console.WriteLine(mathOperations.Add(1, 2).ToString());
+
+
+//4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
